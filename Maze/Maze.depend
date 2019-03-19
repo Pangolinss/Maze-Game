@@ -24,3 +24,28 @@
 	<time.h>
 	"Stack.h"
 
+1553013038 source:d:\maze-game-master\maze\main.cpp
+	"Maze.h"
+
+1553013317 d:\maze-game-master\maze\include\maze.h
+	<iostream>
+	<cstdlib>
+	<time.h>
+	"Stack.h"
+
+1553013038 d:\maze-game-master\maze\include\stack.h
+	"Element.h"
+
+1553013038 d:\maze-game-master\maze\include\element.h
+	<string>
+	<assert.h>
+
+1553013038 source:d:\maze-game-master\maze\src\element.cpp
+	"Element.h"
+
+1553017212 source:d:\maze-game-master\maze\src\maze.cpp
+	"Maze.h"
+
+1553013039 source:d:\maze-game-master\maze\src\stack.cpp
+	"Stack.h"
+

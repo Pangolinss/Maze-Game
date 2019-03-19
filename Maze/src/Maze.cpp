@@ -17,6 +17,7 @@ void Maze::buildMaze(int coor[])
 {
     int move_pool[4][2] = {{0,1},{0,-1},{1,0},{-1,0}};
     int ccopy[2];
+    int makeLoop = 0;
     grid[coor[0]][coor[1]].visit = true;
     shuffle(move_pool, 4);
     for (int i = 0; i<4; i++)
@@ -25,7 +26,8 @@ void Maze::buildMaze(int coor[])
         ccopy[1] = coor[1] + move_pool[i][1];
         if (ccopy[0]>=0 && ccopy[0]<SIZE && ccopy[1]>=0 && ccopy[1]< SIZE)
         {
-            if (grid[ccopy[0]][ccopy[1]].visit == false)
+            makeLoop = rand()%20;
+            if (grid[ccopy[0]][ccopy[1]].visit == false || makeLoop == 0)
             {
                 int dir = -1;
                 if (move_pool[i][0] == 0 && move_pool[i][1] == 1){dir = 0;}
@@ -56,7 +58,7 @@ void Maze::print()
     {
         for (int j = 0; j<2*SIZE+1; j++)
         {
-            arr[i][j] = 5;
+            arr[i][j] = '#';
         }
     }
     for (int i = 0; i<SIZE; i++)
