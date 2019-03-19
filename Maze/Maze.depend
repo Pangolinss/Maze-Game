@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1552967904 source:c:\c++\maze\main.cpp
+	"Maze.h"
+
+1552440261 c:\c++\maze\include\stack.h
+	"Element.h"
+
+1552424183 c:\c++\maze\include\element.h
+	<string>
+	<assert.h>
+
+1552424916 source:c:\c++\maze\src\element.cpp
+	"Element.h"
+
+1552960354 source:c:\c++\maze\src\stack.cpp
+	"Stack.h"
+
+1552967886 source:c:\c++\maze\src\maze.cpp
+	"Maze.h"
+
+1552968801 c:\c++\maze\include\maze.h
+	<iostream>
+	<cstdlib>
+	<time.h>
+	"Stack.h"
+
