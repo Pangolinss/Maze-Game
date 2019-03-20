@@ -49,3 +49,45 @@
 1553013039 source:d:\maze-game-master\maze\src\stack.cpp
 	"Stack.h"
 
+1553104446 source:d:\maze\main.cpp
+	"Maze.h"
+
+1553104447 d:\maze\include\maze.h
+	<iostream>
+	<cstdlib>
+	<time.h>
+	"Stack.h"
+
+1553104447 d:\maze\include\stack.h
+	"Element.h"
+
+1553104446 d:\maze\include\element.h
+	<string>
+	<assert.h>
+
+1553104448 source:d:\maze\src\element.cpp
+	"Element.h"
+
+1553104448 source:d:\maze\src\linklist.cpp
+	"LinkList.h"
+
+1553104447 d:\maze\include\linklist.h
+	"Element.h"
+
+1553104448 source:d:\maze\src\maze.cpp
+	"Maze.h"
+
+1553104448 source:d:\maze\src\mazesolver.cpp
+	"MazeSolver.h"
+
+1553104447 d:\maze\include\mazesolver.h
+	"Species.h"
+
+1553104447 d:\maze\include\species.h
+
+1553104448 source:d:\maze\src\species.cpp
+	"Species.h"
+
+1553104448 source:d:\maze\src\stack.cpp
+	"Stack.h"
+
