@@ -15,6 +15,7 @@ class Maze
         void buildMaze(int[]);
         void print();
         void shuffle(int[][2], int);
+        void solveMaze();
         virtual ~Maze();
 
     private:
@@ -33,6 +34,8 @@ class Maze
             }
         };
         Cell grid[SIZE][SIZE];
+        int ava_loc[2];
+        int finish[2];
 };
 
 #endif // MAZE_H

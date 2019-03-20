@@ -1,4 +1,3 @@
-
 #include"Maze.h"
 using namespace std;
 
