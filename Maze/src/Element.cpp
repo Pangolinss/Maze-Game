@@ -134,3 +134,4 @@ template class Element <char>;
 template class Element <bool>;
 template class Element <double>;
 template class Element <int*>;
+template class Element <Node*>;

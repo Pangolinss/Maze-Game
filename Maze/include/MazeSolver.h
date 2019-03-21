@@ -12,7 +12,7 @@ class MazeSolver
     protected:
 
     private:
-        Species population[1];
+        Species population[50];
 
 };
 

@@ -1,6 +1,6 @@
 #ifndef SPECIES_H
 #define SPECIES_H
-
+#include"Graph.h"
 
 class Species
 {
@@ -11,7 +11,8 @@ class Species
     protected:
 
     private:
-        char genome[1];
+        Graph algorithm;
+        char cell_types[15][3][3];
 };
 
 #endif // SPECIES_H

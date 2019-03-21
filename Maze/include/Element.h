@@ -3,6 +3,8 @@
 #include<string>
 #include<assert.h>
 
+class Node;
+
 template<typename T>
 class Element
 {
