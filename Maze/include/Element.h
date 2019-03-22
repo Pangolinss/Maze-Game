@@ -3,6 +3,8 @@
 #include<string>
 #include<assert.h>
 
+class Node;
+
 template<typename T>
 class Element
 {
@@ -18,6 +20,7 @@ class Element
         void setNext(Element*);
         void setBefore(Element*);
         T getValue() const;
+        T* getValuep() const;
         Element* getNext() const;
         Element* getBefore() const;
 
