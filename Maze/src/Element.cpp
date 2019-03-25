@@ -40,6 +40,19 @@ T Element<T>::getValue() const
 }
 
 template <typename T>
+T* Element<T>::getValuep() const
+{
+    if (this == nullptr)
+    {
+        return nullptr;
+    }
+    else
+    {
+        return value;
+    }
+}
+
+template <typename T>
 Element<T>* Element<T>::getNext() const
 {
     return (this==nullptr) ? (nullptr) : (next);
@@ -134,3 +147,4 @@ template class Element <char>;
 template class Element <bool>;
 template class Element <double>;
 template class Element <int*>;
+template class Element <Node*>;
