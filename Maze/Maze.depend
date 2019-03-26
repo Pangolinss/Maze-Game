@@ -1,24 +1,25 @@
 # depslib dependency file v1.0
-1553033178 source:c:\c++\maze\main.cpp
+1553137979 source:c:\c++\maze\main.cpp
 	"Maze.h"
+	"Species.h"
 
-1553032167 c:\c++\maze\include\stack.h
+1553122583 c:\c++\maze\include\stack.h
 	"Element.h"
 
-1553032167 c:\c++\maze\include\element.h
+1553123330 c:\c++\maze\include\element.h
 	<string>
 	<assert.h>
 
-1553032167 source:c:\c++\maze\src\element.cpp
+1553123353 source:c:\c++\maze\src\element.cpp
 	"Element.h"
 
-1553032167 source:c:\c++\maze\src\stack.cpp
+1553122583 source:c:\c++\maze\src\stack.cpp
 	"Stack.h"
 
-1553032332 source:c:\c++\maze\src\maze.cpp
+1553122583 source:c:\c++\maze\src\maze.cpp
 	"Maze.h"
 
-1553033782 c:\c++\maze\include\maze.h
+1553122583 c:\c++\maze\include\maze.h
 	<iostream>
 	<cstdlib>
 	<time.h>
@@ -48,4 +49,147 @@
 
 1553013039 source:d:\maze-game-master\maze\src\stack.cpp
 	"Stack.h"
+
+1553626497 source:d:\maze\main.cpp
+	"Species.h"
+	<time.h>
+
+1553531978 d:\maze\include\maze.h
+	<iostream>
+	<cstdlib>
+	<time.h>
+	"Stack.h"
+
+1553531978 d:\maze\include\stack.h
+	"Element.h"
+
+1553624270 d:\maze\include\element.h
+	<string>
+	<assert.h>
+	<iostream>
+
+1553625102 source:d:\maze\src\element.cpp
+	"Element.h"
+
+1553625110 source:d:\maze\src\linklist.cpp
+	"LinkList.h"
+
+1553531978 d:\maze\include\linklist.h
+	"Element.h"
+
+1553531979 source:d:\maze\src\maze.cpp
+	"Maze.h"
+
+1553531980 source:d:\maze\src\mazesolver.cpp
+	"MazeSolver.h"
+
+1553531978 d:\maze\include\mazesolver.h
+	"Species.h"
+
+1553625929 d:\maze\include\species.h
+	"Graph.h"
+
+1553626595 source:d:\maze\src\species.cpp
+	"Species.h"
+
+1553531980 source:d:\maze\src\stack.cpp
+	"Stack.h"
+
+1553123379 source:c:\c++\maze\src\linklist.cpp
+	"LinkList.h"
+
+1553122583 c:\c++\maze\include\linklist.h
+	"Element.h"
+
+1553122583 source:c:\c++\maze\src\mazesolver.cpp
+	"MazeSolver.h"
+
+1553122704 c:\c++\maze\include\mazesolver.h
+	"Species.h"
+
+1553137976 c:\c++\maze\include\species.h
+	"Graph.h"
+
+1553137957 source:c:\c++\maze\src\species.cpp
+	"Species.h"
+
+1553122033 c:\c++\maze\include\graph.h
+	"Node.h"
+
+1553139034 c:\c++\maze\include\node.h
+	"LinkList.h"
+
+1553122187 source:c:\c++\maze\src\graph.cpp
+	"Graph.h"
+
+1553123266 source:c:\c++\maze\src\node.cpp
+	"Node.h"
+
+1553535754 d:\maze\include\graph.h
+	"Node.h"
+
+1553534740 d:\maze\include\node.h
+	"LinkList.h"
+
+1553533349 source:d:\maze\src\node.cpp
+	"Node.h"
+
+1553622800 source:d:\maze\src\graph.cpp
+	"Graph.h"
+
+1553483848 source:c:\c++\maze-game-pangolinss-patch-4\maze\main.cpp
+	"Species.h"
+
+1553484073 c:\c++\maze-game-pangolinss-patch-4\maze\include\species.h
+	"Graph.h"
+
+1553484066 c:\c++\maze-game-pangolinss-patch-4\maze\include\graph.h
+	"Node.h"
+
+1553447866 c:\c++\maze-game-pangolinss-patch-4\maze\include\node.h
+	"LinkList.h"
+
+1553447866 c:\c++\maze-game-pangolinss-patch-4\maze\include\linklist.h
+	"Element.h"
+
+1553448970 c:\c++\maze-game-pangolinss-patch-4\maze\include\element.h
+	<string>
+	<assert.h>
+	<iostream>
+
+1553451803 source:c:\c++\maze-game-pangolinss-patch-4\maze\src\graph.cpp
+	"Graph.h"
+
+1553450152 source:c:\c++\maze-game-pangolinss-patch-4\maze\src\linklist.cpp
+	"LinkList.h"
+
+1553447866 source:c:\c++\maze-game-pangolinss-patch-4\maze\src\maze.cpp
+	"Maze.h"
+
+1553447866 c:\c++\maze-game-pangolinss-patch-4\maze\include\maze.h
+	<iostream>
+	<cstdlib>
+	<time.h>
+	"Stack.h"
+
+1553447866 c:\c++\maze-game-pangolinss-patch-4\maze\include\stack.h
+	"Element.h"
+
+1553447866 source:c:\c++\maze-game-pangolinss-patch-4\maze\src\mazesolver.cpp
+	"MazeSolver.h"
+
+1553447866 c:\c++\maze-game-pangolinss-patch-4\maze\include\mazesolver.h
+	"Species.h"
+
+1553450401 source:c:\c++\maze-game-pangolinss-patch-4\maze\src\node.cpp
+	"Node.h"
+
+1553455336 source:c:\c++\maze-game-pangolinss-patch-4\maze\src\species.cpp
+	"Species.h"
+
+1553447866 source:c:\c++\maze-game-pangolinss-patch-4\maze\src\stack.cpp
+	"Stack.h"
+
+1553448125 source:c:\c++\maze-game-pangolinss-patch-4\maze\src\element.cpp
+	"Element.h"
 

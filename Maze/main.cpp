@@ -1,11 +1,12 @@
-#include"Maze.h"
+#include"Species.h"
+#include<time.h>
 using namespace std;
 
 int main()
 {
     srand(time(NULL));
-    Maze maze;
-    maze.generateMaze();
-    maze.print();
+    Species species;
+    species.createAlgorithm();
+    species.outputGenome();
     return 0;
 }
