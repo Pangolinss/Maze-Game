@@ -13,7 +13,7 @@ class Species
         void createAlgorithm();
         void outputGenome();
         void translateGenome();
-        Species meiosis(Species Species);
+        void meiosis(Species, Species&);
         virtual ~Species();
 
     protected:

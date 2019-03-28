@@ -151,10 +151,9 @@ void Species::outputGenome()
     }
 }
 
-Species Species::meiosis(Species species)//itself is parent A, the argument is parent B.
+void Species::meiosis(Species species, Species& child_species)//itself is parent A, the argument is parent B.
 {
     int r;
-    Species child_species;
     child_species.createAlgorithm();
     for (int i = 0; i<15; i++)
     {
@@ -164,22 +163,23 @@ Species Species::meiosis(Species species)//itself is parent A, the argument is p
             int* temp;
             r = rand()%100;
             if (r == 0)//mutation occurs
-            {
-            }
-            else if(r != 0 && r<50)//crossover from parent A
+            {}
+            else if(r != 0 && r<=50)//crossover from parent A
             {
                 temp = genome[i][n]->getValue();
                 child_species.setGenome(i, n, temp);
+                std::cout<<1;
             }
             else if (r>50)//crossover from parent B
             {
                 temp = species.getGenome(i)[n]->getValue();
                 child_species.setGenome(i, n, temp);
+                std::cout<<0;
             }
             n++;
         }
     }
-    return child_species;
+    return;
 }
 
 Species::~Species()

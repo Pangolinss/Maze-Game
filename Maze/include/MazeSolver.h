@@ -12,7 +12,9 @@ class MazeSolver
     protected:
 
     private:
-        Species population[50];
+        Graph* genetics;
+        Stack move_list;
+        int direction;
 
 };
 

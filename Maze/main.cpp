@@ -10,7 +10,7 @@ int main()
     Species child;
     father.createAlgorithm();
     mother.createAlgorithm();
-    child = mother.meiosis(father);
+    mother.meiosis(father, child);
 
     return 0;
 }
