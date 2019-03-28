@@ -6,14 +6,21 @@ class Species
 {
     public:
         Species();
+        LinkList<int*> getGenome(int);
+        void setGenome(int, int, int*);
+
         void print();
         void createAlgorithm();
+        void outputGenome();
+        void translateGenome();
+        Species meiosis(Species Species);
         virtual ~Species();
 
     protected:
 
     private:
         Graph algorithm;
+        LinkList<int*> genome[15];//the connections values are encoded in the genome. The first one is itself, the rest are connections
         int cell_types[15][3][3];
 };
 

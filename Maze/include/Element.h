@@ -5,6 +5,8 @@
 #include<iostream>
 
 class Node;
+template <typename T>
+class LinkList;
 
 template<typename T>
 class Element

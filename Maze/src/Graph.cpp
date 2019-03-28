@@ -71,6 +71,20 @@ void Graph::print(Node* node)
     return;
 }
 
+void Graph::addtoNodeList(Node* node)
+{
+    allNodes.append(node);
+}
+
+Node* Graph::iterateNodes(int n)
+{
+    if (allNodes[n]->getValuep() != nullptr)
+    {
+        return allNodes[n]->getValue();
+    }
+    else {return nullptr;}
+}
+
 Graph::~Graph()
 {
     //dtor

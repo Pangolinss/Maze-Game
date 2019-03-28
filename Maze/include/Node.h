@@ -10,11 +10,17 @@ class Node
         Node* getConnection(int);
         int* getMagnitude(int);
 
+        void setConnection(int, Node*);
+        void setMagnitude(int, int*);
+
         void addConnection(Node*);
         void addMagnitude(int*);
 
         int* getValue();
         int** getShape();
+
+        void setValue(int[], int);
+        void setShape();
 
         virtual ~Node();
         bool visit;

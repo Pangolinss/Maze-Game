@@ -209,3 +209,4 @@ template class LinkList <bool>;
 template class LinkList <double>;
 template class LinkList <int*>;
 template class LinkList <Node*>;
+template class LinkList <LinkList<int*>*>;

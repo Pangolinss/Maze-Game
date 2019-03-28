@@ -72,6 +72,14 @@ int** Node::getShape()
     return arr;
 }
 
+void Node::setValue(int _val[], int arrsize)
+{
+    for (int i = 0;i<arrsize; i++)
+    {
+        value[i] = _val[i];
+    }
+}
+
 Node::~Node()
 {
     //dtor

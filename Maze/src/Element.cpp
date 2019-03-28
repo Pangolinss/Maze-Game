@@ -148,3 +148,4 @@ template class Element <bool>;
 template class Element <double>;
 template class Element <int*>;
 template class Element <Node*>;
+template class Element <LinkList<int*>*>;

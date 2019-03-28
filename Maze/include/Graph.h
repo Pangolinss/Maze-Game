@@ -14,6 +14,7 @@ class Graph
         int* getNodeConMag(Node*, Node*);
         void print(Node* node);
         void addtoNodeList(Node*);
+        Node* iterateNodes(int);
         virtual ~Graph();
 
     private:
